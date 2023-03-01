@@ -42,3 +42,17 @@
   top: 124px;
   z-index: 0;
 }
+
+.header__hours {
+  font-weight: 500;
+  line-height: 5px;
+  padding-left: 80px;
+  position: absolute;
+  bottom: 40px;
+}
+
+.header__address {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+}
