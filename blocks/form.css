@@ -1,0 +1,49 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  box-sizing: border-box;
+}
+
+.form__fieldset {
+  border: 0;
+}
+
+.form__label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  border-radius: 4px;
+  max-width: 385px;
+  height: 60px;
+  font-family: Inter;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  box-sizing: border-box;
+  min-width: 400px;
+  min-height: 60px;
+}
+
+.form__button[type="submit"] {
+  min-width: 400px;
+  min-height: 60px;
+}
+
+.form__label[for="terms-of-use"] {
+  display: inline;
+}
+
+.form__input[type="checkbox"] {
+  border-radius: 4px;
+  min-width: 20px;
+  min-height: 20px;
+  vertical-align: middle;
+  padding-bottom: 120px;
+}

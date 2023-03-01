@@ -43,36 +43,6 @@
   z-index: 0;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 30px;
-  padding-left: 30px;
-}
-
-.nav__links {
-  display: flex;
-  justify-content: flex-end;
-  column-gap: 20px;
-  margin-right: 80px;
-  margin-top: 0;
-}
-
-.nav__link {
-  font-weight: 500;
-  list-style-type: none;
-}
-
-.nav__link:hover {
-  color: #2f80ed;
-}
-
-.logo {
-  height: 142px;
-  width: 125px;
-}
-
 .hours {
   font-weight: 500;
   line-height: 5px;
