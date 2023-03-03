@@ -22,22 +22,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  z-index: 1;
 }
 
 .about__title {
   max-width: 251px;
   padding-top: 100px;
   padding-left: 80px;
-  font-family: Inter;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
   margin: 0;
-  z-index: 1;
 }
 
 .about__content {
-  font-family: Noto Serif, Time New Roman, sans-serif;
+  font-family: "Noto Serif", "Time New Roman", sans-serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
@@ -46,11 +45,12 @@
   padding-bottom: 173px;
 }
 
-.about__paragraph:first-of-type {
+.about__paragraph {
   margin-top: 0;
+  margin-bottom: 20px;
 }
 
-.about__paragraph:first-of-type {
+.about__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
@@ -62,7 +62,7 @@
   position: absolute;
   top: -152px;
   left: -129px;
-  z-index: 0;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {

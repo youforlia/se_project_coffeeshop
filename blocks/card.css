@@ -11,16 +11,23 @@
 
 .card__list-items {
   padding-left: 0;
+  margin: 0;
 }
 
 .card__list-item {
-  font-family: "Noto Serif, Time New Roman, sans-serif;";
+  font-family: "Noto Serif", "Time New Roman", sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding-bottom: 16px;
+}
+
+.card__list-item:last-of-type {
+  padding-bottom: 0;
 }
 
 .card__list-divider {
-  flex-grow: 1;
-  border-bottom: 1px solid #fff;
+  flex-grow: 3;
+  border: 1px solid #fff;
+  margin: 0 4px 4px;
 }
