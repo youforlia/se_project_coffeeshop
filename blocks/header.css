@@ -20,7 +20,7 @@
   line-height: 72px;
 }
 
-.header__first-line {
+.header__span-accent {
   display: block;
   font-family: "Noto Serif", "Time New Roman", sans-serif;
   font-style: italic;
@@ -46,12 +46,8 @@
 }
 
 .header__paragraph {
-  margin-top: 0;
+  margin: 0;
   color: #6f6f6f;
-}
-
-.header__paragraph:last-of-type {
-  margin-bottom: 0;
 }
 
 .header__hours {
@@ -59,7 +55,7 @@
   flex-wrap: wrap;
   flex-direction: column;
   font-weight: 500;
-  line-height: 5px;
+  line-height: 20px;
   padding-left: 80px;
   position: absolute;
   bottom: 40px;
@@ -71,5 +67,5 @@
   right: 80px;
   bottom: 40px;
   margin-bottom: 0;
-  line-height: 5px;
+  line-height: 20px;
 }
