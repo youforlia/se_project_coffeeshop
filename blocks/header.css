@@ -45,12 +45,6 @@
   z-index: -1;
 }
 
-.header__about-info {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
 .header__paragraph {
   margin-top: 0;
   color: #6f6f6f;
@@ -61,6 +55,9 @@
 }
 
 .header__hours {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
   font-weight: 500;
   line-height: 5px;
   padding-left: 80px;
